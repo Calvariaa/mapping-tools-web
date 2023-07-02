@@ -6,10 +6,12 @@
   <ItemGroup>
     <None Remove="Resources\en-US.yml" />
     <None Remove="Resources\de-DE.yml" />
+    <None Remove="Resources\zh-CN.yml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\en-US.yml" />
     <EmbeddedResource Include="Resources\de-DE.yml" />
+    <EmbeddedResource Include="Resources\zh-CN.yml" />
   </ItemGroup>
 
 </Project>
