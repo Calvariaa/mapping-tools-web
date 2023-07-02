@@ -1,0 +1,90 @@
+# 0 共享
+basic: 基本
+advanced: 高级
+404: 该地址似乎没有任何内容...
+changelog: 更新日志
+beatDivisors: 节拍除数
+changeLanguage: 更改语言
+settings: 设置
+name: 名称
+contentType: 内容类型
+selectContentType: 选择此文件的内容类型
+size: 大小
+lastModified: 上次修改时间
+delete: 删除
+apply: 应用
+add: 添加
+remove: 移除
+sortBy: 排序方式
+commitEdit: 提交编辑
+backups: 备份
+general: 通用
+tools: 工具
+saveSettings: 保存设置
+beatmap: 谱面
+
+# 1 工具
+## 1.0 共享
+tools_shared_noBeatmap: 找不到任何谱面。
+tools_shared_beatmapSelectHelpText: 选择一个谱面。
+tools_shared_noBeatmapData: 找不到任何谱面数据！
+tools_shared_noBeatDivisors: 请选择至少1个节拍除数！
+tools_shared_beatmapStringEncodeError: 无法将谱面字节转换为字符串！
+tools_shared_beatmapParseError: 无法解析谱面数据！
+## 1.1 谱面清理器
+tools_mapCleaner_resnapObjects: 重新对齐对象
+tools_mapCleaner_resnapBookmarks: 重新对齐书签
+tools_mapCleaner_removeUnusedSamples: 移除未使用的样本
+tools_mapCleaner_removeMuting: 移除静音
+tools_mapCleaner_removeUnclickables: 移除不可点击的对象
+tools_mapCleaner_usesVolumeChangesInSliders: 在滑条中使用音量变化？
+tools_mapCleaner_usesVolumeChangesInSpinners: 在旋钮中使用音量变化？
+tools_mapCleaner_usesSampleSetChanges: 使用样本集变化？
+tools_mapCleaner_beatDivisorHelpText: 选择相关的节拍除数
+tools_mapCleaner_docsHeader: 谱面清理器文档
+## 1.2 音效复制器
+tools_hitsoundCopier_beatmapSelectFromHelpText: 选择要复制的谱面。
+tools_hitsoundCopier_beatmapSelectToHelpText: 选择要复制到的谱面。
+tools_hitsoundCopier_sourceBeatmap: 源谱面
+tools_hitsoundCopier_destinationBeatmap: 目标谱面
+tools_hitsoundCopier_copyingMode: 复制模式
+tools_hitsoundCopier_temporalLeniency: 时间宽容度
+tools_hitsoundCopier_copyHitsounds: 复制音效
+tools_hitsoundCopier_copySliderBody: 复制滑条音效
+tools_hitsoundCopier_copySampleSets: 复制样本集
+tools_hitsoundCopier_copyVolumes: 复制音量
+tools_hitsoundCopier_alwaysPreserve5Volume: 始终保留5%的音量
+tools_hitsoundCopier_copyStoryboardSamples: 复制故事板样本
+tools_hitsoundCopier_ignoreHitsoundSatisfied: 忽略通过音效满足的样本
+tools_hitsoundCopier_copyToSliderTicks: 复制到滑条刻度
+tools_hitsoundCopier_copyToSliderSlides: 复制到滑条滑块
+tools_hitsoundCopier_muteSliderends: 静音滑条末端
+tools_hitsoundCopier_mutingFilter: 滑条末端静音过滤器
+tools_hitsoundCopier_allBeatDivisors: 所有节拍除数
+tools_hitsoundCopier_mutedBeatDivisors: 静音的节拍除数
+tools_hitsoundCopier_minimumDuration: 最小持续时间
+tools_hitsoundCopier_mutedConfig: 静音配置
+tools_hitsoundCopier_mutedSampleIndex: 样本索引
+tools_hitsoundCopier_mutedSampleSet: 样本集
+tools_hitsoundCopier_overwriteEverything: 覆盖所有内容
+tools_hitsoundCopier_overwriteDefined: 仅覆盖已定义内容
+## 1.3 连击颜色工作室
+tools_comboColourStudio_time: 时间
+tools_comboColourStudio_mode: 模式
+tools_comboColourStudio_colourSequence: 颜色序列
+tools_comboColourStudio_importColours: 导入颜色
+tools_comboColourStudio_importColorhax: 导入colorhax
+tools_comboColourStudio_maxBurstLength: 最大连击长度
+
+# 2 独立组件
+## 2.0 共享
+## 2.1 Markdown 编写器
+standaloneComponents_markdownWriter_noDocsFound: 在该语言中找不到任何文档。
+## 2.2 文件系统
+standaloneComponents_fileSystem_audio: 音频
+standaloneComponents_fileSystem_beatmap: 谱面
+standaloneComponents_fileSystem_image: 图像
+standaloneComponents_fileSystem_storyboard: 故事板
+standaloneComponents_fileSystem_video: 视频
+standaloneComponents_fileSystem_undefined: 未定义
+standaloneComponents_fileSystem_upload: 上传文件
